@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explora panes de masa madre, dulces sin azúcar añadida y café orgánico de origen en el catálogo de Raíz & Miga.">
+  <meta name="theme-color" content="#f6f1e7">
+  <title>Catálogo — Raíz & Miga</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="catalog-page">
+  <div class="announcement">Pan real, fermentado lento · Ingredientes orgánicos · Sin azúcar añadida</div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Raíz y Miga, inicio"><span class="brand-mark" aria-hidden="true">R<span>&</span>M</span><span>raíz <i>&</i> miga<small>masa madre · café</small></span></a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a class="active" href="catalogo.html" aria-current="page">Catálogo</a>
+      <a href="index.html#origen">Nuestra forma</a>
+      <a href="index.html#visitanos">Visítanos</a>
+    </nav>
+    <a class="button button-small" href="#productos">Explorar <span aria-hidden="true">↓</span></a>
+  </header>
+
+  <main>
+    <section class="catalog-hero">
+      <div class="catalog-hero-copy"><p class="eyebrow"><span></span> Lo que sale de nuestro horno</p><h1>Hecho con calma.<br><em>Listo para tu mesa.</em></h1><p>Panes de masa madre, dulces sencillos y café orgánico. Elige tus favoritos y los preparamos para ti.</p><div class="crumb"><a href="index.html">Inicio</a><span>/</span><b>Catálogo</b></div></div>
+      <div class="catalog-hero-image"><img src="https://images.unsplash.com/photo-1608198093002-ad4e005484df?auto=format&fit=crop&w=1100&q=85" alt="Selección de panes artesanales en una panadería"><span>HORNEAMOS EN PEQUEÑOS LOTES</span></div>
+    </section>
+
+    <section class="catalog-content" id="productos">
+      <aside class="catalog-aside"><span class="eyebrow">Del horno a casa</span><h2>Encuentra<br>tu antojo.</h2><p>Todo hecho en casa, con ingredientes honestos y sin azúcar añadida.</p><div class="catalog-aside-note"><span>✳</span><p>¿Buscas una torta especial o un pedido para compartir? Escríbenos y lo conversamos.</p></div><a class="text-link dark-link" href="https://wa.me/573001234567?text=Hola%2C%20quisiera%20consultar%20por%20un%20pedido%20especial" target="_blank" rel="noreferrer">Pedir algo especial ↗</a></aside>
+      <div class="catalog-main">
+        <div class="catalog-toolbar"><div class="filters" role="group" aria-label="Filtrar por categoría"><button class="filter active" type="button" data-filter="todos" aria-pressed="true">Todo <span>08</span></button><button class="filter" type="button" data-filter="panes" aria-pressed="false">Panes</button><button class="filter" type="button" data-filter="dulces" aria-pressed="false">Dulces</button><button class="filter" type="button" data-filter="cafe" aria-pressed="false">Café</button></div><label class="search-label"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Buscar en el catálogo" aria-label="Buscar productos"></label></div>
+        <div class="product-grid" id="product-grid">
+          <article class="catalog-product" id="panes" data-category="panes" data-name="hogaza de la casa masa madre trigo organico"><div class="product-photo"><img src="https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&w=900&q=85" alt="Hogaza de masa madre de corteza dorada"><span class="product-badge">El favorito</span><span class="product-number">01</span></div><div class="product-info"><div><span class="product-category">PANES · 700 G</span><h3>Hogaza de la casa</h3><p>Trigo orgánico, agua, sal de mar y nuestra masa madre.</p></div><div class="product-buy"><b>$24.000</b><a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20pedir%20la%20Hogaza%20de%20la%20casa" target="_blank" rel="noreferrer" aria-label="Pedir Hogaza de la casa por WhatsApp">Pedir ↗</a></div></div></article>
+          <article class="catalog-product" data-category="panes" data-name="pan de semillas masa madre semillas organicas"><div class="product-photo"><img src="https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=900&q=85" alt="Pan artesanal de masa madre con semillas"><span class="product-number">02</span></div><div class="product-info"><div><span class="product-category">PANES · 650 G</span><h3>Pan de semillas</h3><p>Avena, linaza y girasol sobre una miga suave y aromática.</p></div><div class="product-buy"><b>$28.000</b><a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20pedir%20el%20Pan%20de%20semillas" target="_blank" rel="noreferrer" aria-label="Pedir Pan de semillas por WhatsApp">Pedir ↗</a></div></div></article>
+          <article class="catalog-product" data-category="panes" data-name="focaccia romero aceite de oliva organico"><div class="product-photo"><img src="https://images.unsplash.com/photo-1619531040576-f9416740661f?auto=format&fit=crop&w=900&q=85" alt="Focaccia artesanal con romero"><span class="product-number">03</span></div><div class="product-info"><div><span class="product-category">PANES · 450 G</span><h3>Focaccia de romero</h3><p>Aceite de oliva orgánico, romero fresco y sal de mar.</p></div><div class="product-buy"><b>$19.000</b><a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20pedir%20la%20Focaccia%20de%20romero" target="_blank" rel="noreferrer" aria-label="Pedir Focaccia de romero por WhatsApp">Pedir ↗</a></div></div></article>
+          <article class="catalog-product" id="dulces" data-category="dulces" data-name="rollo de canela sin azucar datiles organicos"><div class="product-photo"><img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=900&q=85" alt="Rollo de canela recién horneado"><span class="product-badge badge-green">Sin azúcar añadida</span><span class="product-number">04</span></div><div class="product-info"><div><span class="product-category">DULCES · UNIDAD</span><h3>Rollo de canela</h3><p>Endulzado con dátiles y especiado con canela de Ceylán.</p></div><div class="product-buy"><b>$9.000</b><a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20pedir%20un%20Rollo%20de%20canela" target="_blank" rel="noreferrer" aria-label="Pedir Rollo de canela por WhatsApp">Pedir ↗</a></div></div></article>
+          <article class="catalog-product" data-category="dulces" data-name="galleta avena cacao nibs sin azucar"><div class="product-photo"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=85" alt="Galletas artesanales de avena y cacao"><span class="product-number">05</span></div><div class="product-info"><div><span class="product-category">DULCES · 2 UNIDADES</span><h3>Galletas de avena</h3><p>Avena orgánica, cacao y trocitos de chocolate 100%.</p></div><div class="product-buy"><b>$12.000</b><a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20pedir%20las%20Galletas%20de%20avena" target="_blank" rel="noreferrer" aria-label="Pedir Galletas de avena por WhatsApp">Pedir ↗</a></div></div></article>
+          <article class="catalog-product" data-category="dulces" data-name="granola horneada nueces coco sin azucar"><div class="product-photo"><img src="https://images.unsplash.com/photo-1517093157656-b9ecaf4b7b7d?auto=format&fit=crop&w=900&q=85" alt="Granola artesanal con nueces y semillas"><span class="product-number">06</span></div><div class="product-info"><div><span class="product-category">DESPENSA · 300 G</span><h3>Granola de la casa</h3><p>Nueces, coco, avena y semillas tostadas; sin endulzantes añadidos.</p></div><div class="product-buy"><b>$26.000</b><a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20pedir%20la%20Granola%20de%20la%20casa" target="_blank" rel="noreferrer" aria-label="Pedir Granola de la casa por WhatsApp">Pedir ↗</a></div></div></article>
+          <article class="catalog-product" id="cafe" data-category="cafe" data-name="cafe de origen organico huila grano"><div class="product-photo"><img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=85" alt="Café de origen en granos recién molidos"><span class="product-badge badge-green">Orgánico</span><span class="product-number">07</span></div><div class="product-info"><div><span class="product-category">CAFÉ · 340 G</span><h3>Café de origen</h3><p>Huila, notas de panela, cacao y frutos rojos. En grano o molido.</p></div><div class="product-buy"><b>$38.000</b><a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20pedir%20el%20Cafe%20de%20origen" target="_blank" rel="noreferrer" aria-label="Pedir Café de origen por WhatsApp">Pedir ↗</a></div></div></article>
+          <article class="catalog-product" data-category="cafe" data-name="cold brew cafe frio organico"><div class="product-photo"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85" alt="Café frío artesanal"><span class="product-number">08</span></div><div class="product-info"><div><span class="product-category">CAFÉ · 300 ML</span><h3>Cold brew</h3><p>Infusión en frío de 16 horas, suave y sin endulzantes.</p></div><div class="product-buy"><b>$12.000</b><a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20pedir%20un%20Cold%20brew" target="_blank" rel="noreferrer" aria-label="Pedir Cold brew por WhatsApp">Pedir ↗</a></div></div></article>
+        </div>
+        <p class="no-results" id="no-results" hidden>No encontramos productos con esa búsqueda. Prueba otro nombre o categoría.</p>
+        <p class="catalog-disclaimer">Precios y productos de muestra para esta demo. Los productos pueden contener azúcares naturalmente presentes en frutas, miel o cereales. Consulta ingredientes y alérgenos al realizar tu pedido.</p>
+      </div>
+    </section>
+
+    <section class="catalog-cta"><span class="eyebrow">Para compartir algo bueno</span><h2>¿Tienes un pedido especial?</h2><p>Hablemos de una mesa dulce, una reunión o simplemente más pan para el fin de semana.</p><a class="button button-light" href="https://wa.me/573001234567?text=Hola%2C%20quiero%20cotizar%20un%20pedido%20especial%20en%20Raiz%20y%20Miga" target="_blank" rel="noreferrer">Escríbenos por WhatsApp ↗</a></section>
+  </main>
+  <footer class="footer"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">R<span>&</span>M</span><span>raíz <i>&</i> miga<small>masa madre · café</small></span></a><span>Horneado con paciencia y cariño.</span><span>© 2026 Raíz & Miga · Demo</span></footer>
+  <a class="whatsapp" href="https://wa.me/573001234567?text=Hola%2C%20quiero%20hacer%20un%20pedido%20en%20Ra%C3%ADz%20%26%20Miga" target="_blank" rel="noreferrer"><span aria-hidden="true">◉</span> Pedir por WhatsApp</a>
+  <script src="imagenes.js"></script>
+  <script src="catalogo.js"></script>
+</body>
+</html>
